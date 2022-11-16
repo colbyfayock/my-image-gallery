@@ -39,6 +39,10 @@ export default function Home() {
                     src={image.image}
                     alt={image.alt}
                     loading="lazy"
+                    sizes="(min-width: 480px ) 50vw,
+                      (min-width: 728px) 33vw,
+                      (min-width: 976px) 25vw,
+                      100vw"
                   />
                 </li>
               )
@@ -62,6 +66,10 @@ export default function Home() {
                     src={image.image}
                     alt={image.alt}
                     loading="lazy"
+                    sizes="(min-width: 480px ) 50vw,
+                      (min-width: 728px) 33vw,
+                      (min-width: 976px) 25vw,
+                      100vw"
                   />
                 </li>
               )
@@ -85,6 +93,10 @@ export default function Home() {
                     src={image.image}
                     alt={image.alt}
                     loading="lazy"
+                    sizes="(min-width: 480px ) 50vw,
+                      (min-width: 728px) 33vw,
+                      (min-width: 976px) 25vw,
+                      100vw"
                   />
                 </li>
               )
