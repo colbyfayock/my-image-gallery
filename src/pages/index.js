@@ -34,8 +34,9 @@ export default function Home() {
                 <li key={image.link}>
                   <CldImage
                     deliveryType="fetch"
-                    width={image.width}
-                    height={image.height}
+                    width="600"
+                    height="600"
+                    crop="fill"
                     src={image.image}
                     alt={image.alt}
                     loading="lazy"
@@ -61,8 +62,9 @@ export default function Home() {
                 <li key={image.link}>
                   <CldImage
                     deliveryType="fetch"
-                    width={image.width}
-                    height={image.height}
+                    width="600"
+                    height="600"
+                    crop="fill"
                     src={image.image}
                     alt={image.alt}
                     loading="lazy"
@@ -88,8 +90,9 @@ export default function Home() {
                 <li key={image.link}>
                   <CldImage
                     deliveryType="fetch"
-                    width={image.width}
-                    height={image.height}
+                    width="600"
+                    height="600"
+                    crop="fill"
                     src={image.image}
                     alt={image.alt}
                     loading="lazy"
