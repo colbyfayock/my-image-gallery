@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { CldImage } from 'next-cloudinary';
 
 import Layout from '@components/Layout';
 import Section from '@components/Section';
@@ -31,7 +32,8 @@ export default function Home() {
             {people.map(image => {
               return (
                 <li key={image.link}>
-                  <Image
+                  <CldImage
+                    deliveryType="fetch"
                     width={image.width}
                     height={image.height}
                     src={image.image}
@@ -53,7 +55,8 @@ export default function Home() {
             {animals.map(image => {
               return (
                 <li key={image.link}>
-                  <Image
+                  <CldImage
+                    deliveryType="fetch"
                     width={image.width}
                     height={image.height}
                     src={image.image}
@@ -75,7 +78,8 @@ export default function Home() {
             {space.map(image => {
               return (
                 <li key={image.link}>
-                  <Image
+                  <CldImage
+                    deliveryType="fetch"
                     width={image.width}
                     height={image.height}
                     src={image.image}
