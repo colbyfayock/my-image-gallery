@@ -33,7 +33,6 @@ export default function Home() {
               return (
                 <li key={image.link}>
                   <CldImage
-                    deliveryType="fetch"
                     width="600"
                     height="600"
                     crop="fill"
@@ -61,7 +60,6 @@ export default function Home() {
               return (
                 <li key={image.link}>
                   <CldImage
-                    deliveryType="fetch"
                     width="600"
                     height="600"
                     crop="fill"
@@ -89,7 +87,6 @@ export default function Home() {
               return (
                 <li key={image.link}>
                   <CldImage
-                    deliveryType="fetch"
                     width="600"
                     height="600"
                     crop="fill"
