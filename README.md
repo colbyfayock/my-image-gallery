@@ -13,3 +13,7 @@ Demo for tutorial [How to Optimize Images with Responsive Sizes & AI Cropping in
 📺 [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
 
 ✉️ [Sign Up for My Newsletter](https://colbyfayock.com/newsletter)
+
+## Note
+
+The linked demo references the images by public ID rather than a delivery type of fetch so I can organize it along with other tutorials within my Cloudinary account. This change doesn't make a difference in the demo, but to see the change, check out the `demo` branch.
